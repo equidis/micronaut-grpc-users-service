@@ -39,7 +39,7 @@ plugins {
     id("com.google.protobuf") version "0.8.15"
     id("io.micronaut.application") version "2.0.4"
     id("com.google.cloud.tools.jib") version "2.7.1"
-    id("com.github.johnrengelman.shadow") version "6.1.0"
+    id("com.github.johnrengelman.shadow") version "7.1.1"
 }
 
 version = "0.1.13"
