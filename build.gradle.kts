@@ -105,14 +105,14 @@ protobuf {
     val reactorId = "reactor"
     val krotoId = "kroto"
     protoc {
-        artifact = "com.google.protobuf:protoc:3.17.3"
+        artifact = "com.google.protobuf:protoc:3.19.2"
     }
     plugins {
         id(grpcId) {
             artifact = "io.grpc:protoc-gen-grpc-java:1.35.0"
         }
         id(javaPgvId) {
-            artifact = "io.envoyproxy.protoc-gen-validate:protoc-gen-validate:0.4.1"
+            artifact = "io.envoyproxy.protoc-gen-validate:protoc-gen-validate:0.6.2"
         }
         id(reactorId) {
             artifact = "com.salesforce.servicelibs:reactor-grpc:1.0.1"
