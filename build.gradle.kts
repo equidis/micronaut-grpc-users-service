@@ -115,7 +115,7 @@ protobuf {
             artifact = "io.envoyproxy.protoc-gen-validate:protoc-gen-validate:0.6.2"
         }
         id(reactorId) {
-            artifact = "com.salesforce.servicelibs:reactor-grpc:1.0.1"
+            artifact = "com.salesforce.servicelibs:reactor-grpc:1.2.3"
         }
         id(krotoId) {
             artifact = "com.github.marcoferrer.krotoplus:protoc-gen-kroto-plus:0.6.1"
