@@ -37,7 +37,7 @@ plugins {
     kotlin("plugin.allopen") version kotlinVersion
     kotlin("plugin.serialization") version kotlinVersion
     id("com.google.protobuf") version "0.8.18"
-    id("io.micronaut.application") version "2.0.4"
+    id("io.micronaut.application") version "3.3.2"
     id("com.google.cloud.tools.jib") version "3.1.4"
     id("com.github.johnrengelman.shadow") version "6.1.0"
 }
