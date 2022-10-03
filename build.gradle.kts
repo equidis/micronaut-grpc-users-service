@@ -112,7 +112,7 @@ protobuf {
             artifact = "io.grpc:protoc-gen-grpc-java:1.35.0"
         }
         id(javaPgvId) {
-            artifact = "io.envoyproxy.protoc-gen-validate:protoc-gen-validate:0.6.2"
+            artifact = "io.envoyproxy.protoc-gen-validate:protoc-gen-validate:0.6.13"
         }
         id(reactorId) {
             artifact = "com.salesforce.servicelibs:reactor-grpc:1.2.3"
